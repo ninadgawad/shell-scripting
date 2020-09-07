@@ -22,3 +22,11 @@ grep -i <keyword" *.log
 ## Filer Log file to show column  1 ^ 4
 awk '{print $1,$4}' apache.log
 
+# Show top 10 lines in a file
+head -10 /tmp/test.logs
+
+
+# Show Last 10 lines in a file
+tail -10 /tmp/test.logs
+
+
