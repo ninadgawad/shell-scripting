@@ -29,4 +29,6 @@ head -10 /tmp/test.logs
 # Show Last 10 lines in a file
 tail -10 /tmp/test.logs
 
-
+# Show MD5 hash for a file 
+md5sum file.dat
+46798r57fca45c46a84b7419f8b740123
