@@ -32,3 +32,15 @@ tail -10 /tmp/test.logs
 # Show MD5 hash for a file 
 md5sum file.dat
 46798r57fca45c46a84b7419f8b740123
+
+# Unix Function to add two arguments passed to it
+add()
+{
+numberA=$1; # Argument 1
+numberB=$2; # Argument 2
+if [ $# -ne 2 ]; then
+echo “ Enter two numbers to add “;
+fi
+sum=$((number1+number2));
+echo “ Sum of $1 + $1 = $sum “;
+}
