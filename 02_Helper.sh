@@ -42,6 +42,9 @@ tail -10 /tmp/test.logs
 md5sum file.dat
 46798r57fca45c46a84b7419f8b740123
 
+## Sed to replace old value in the file with new value
+sed -i "/s/OLD_VALUE/NEW_VALUE" data.csv
+
 # Unix Function to add two arguments passed to it
 add()
 {
