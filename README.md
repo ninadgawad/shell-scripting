@@ -36,7 +36,7 @@ traceroute github.com
 awk '{print $1,$4}' app.log 
 
 ## Split Large file into smaller files in Unix 
-split -b 1024k bigdata.psv segment
+split -b 1024K bigdata.psv segment
 
 
 
