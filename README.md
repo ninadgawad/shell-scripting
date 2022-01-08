@@ -32,3 +32,11 @@ netstat -tulpn
 traceroute github.com
 
 
+## Manipulating data using awk command - fetch selected columns from application log
+awk '{print $1,$4}' app.log 
+
+## Split Large file into smaller files in Unix 
+split -b 1024k bigdata.psv segment
+
+
+
