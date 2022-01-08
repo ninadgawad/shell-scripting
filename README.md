@@ -38,5 +38,9 @@ awk '{print $1,$4}' app.log
 ## Split Large file into smaller files in Unix 
 split -b 1024K bigdata.psv segment
 
+## Download a file from remote server
+curl -O --silent ftp://<someserver>/data.zip
+
+
 
 
