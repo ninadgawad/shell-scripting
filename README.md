@@ -38,6 +38,12 @@ awk '{print $1,$4}' app.log
 ## Split Large file into smaller files in Unix 
 split -b 1024K bigdata.psv segment
 
+## Encode text data to base64
+echo  'someimportanttext' | base64
+
+## Decode base64 to text 
+echo  'c29tZWltcG9ydGFudHRleHQ=' | base64 --decode
+
 ## Download a file from remote server
 curl -O --silent ftp://<someserver>/data.zip
 
