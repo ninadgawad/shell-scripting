@@ -47,6 +47,17 @@ echo  'c29tZWltcG9ydGFudHRleHQ=' | base64 --decode
 ## Download a file from remote server
 curl -O --silent ftp://<someserver>/data.zip
 
+## For 8 AM use 8, and for 8 PM use 20
+```
+30 08 10 06 * /home/jobs/run_backup.sh
+```
+- 30 – 30th Minute 
+- 08 – 08 AM 
+- 10 – 10th Day 
+- 06 – 6th Month (June) 
+- * – Every day of the week 
+  
+  
 ### Links
 https://math.mit.edu/services/help/new/unix
 
