@@ -69,6 +69,11 @@ curl -O --silent ftp://<someserver>/data.zip
   awk '{print $1,$4}' data.txt 
 ```
   
+### Find longed line in data file using awk 
+```
+awk '{ if (length($0) > max) max = length($0) } END { print max }' data.txt
+```
+  
  ### Links
 https://math.mit.edu/services/help/new/unix
 
