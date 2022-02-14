@@ -58,6 +58,12 @@ curl -O --silent ftp://<someserver>/data.zip
 - * – Every day of the week 
   
   
+## Send Email 
+  ```
+  mail -s 'subject' -c 'cc-address' -b 'bcc-address' 'to-address'
+  ```
+  
+  
 ### Links
 https://math.mit.edu/services/help/new/unix
 
