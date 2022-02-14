@@ -62,8 +62,13 @@ curl -O --silent ftp://<someserver>/data.zip
   ```
   mail -s 'subject' -c 'cc-address' -b 'bcc-address' 'to-address'
   ```
+
   
+## Awk row 1 and 4
+```
+  awk '{print $1,$4}' data.txt 
+```
   
-### Links
+ ### Links
 https://math.mit.edu/services/help/new/unix
 
