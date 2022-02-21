@@ -76,7 +76,7 @@ awk '{ if (length($0) > max) max = length($0) } END { print max }' data.txt
 
 ## egerp case insensitive search for data
 ```
-% egrep -i data filename | less 
+egrep -i data filename | less 
 ```
 ### Links
 https://math.mit.edu/services/help/new/unix
