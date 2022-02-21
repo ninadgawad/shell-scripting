@@ -44,6 +44,11 @@ echo  'someimportanttext' | base64
 ## Decode base64 to text 
 echo  'c29tZWltcG9ydGFudHRleHQ=' | base64 --decode
 
+## MD5 Checksum
+```
+md5sum filename
+```
+
 ## Download a file from remote server
 curl -O --silent ftp://<someserver>/data.zip
 
