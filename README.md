@@ -73,7 +73,11 @@ curl -O --silent ftp://<someserver>/data.zip
 ```
 awk '{ if (length($0) > max) max = length($0) } END { print max }' data.txt
 ```
-  
- ### Links
+
+## egerp case insensitive search for data
+```
+% egrep -i data filename | less 
+```
+### Links
 https://math.mit.edu/services/help/new/unix
 
