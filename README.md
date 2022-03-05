@@ -49,6 +49,16 @@ echo  'c29tZWltcG9ydGFudHRleHQ=' | base64 --decode
 md5sum filename
 ```
 
+## Tail a file
+```
+tail -f data.txt 
+```
+
+## Date 
+```
+date +%H:%M 
+```
+
 ## Download a file from remote server
 curl -O --silent ftp://<someserver>/data.zip
 
