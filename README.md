@@ -18,36 +18,56 @@ vi data.txt
 cat /usr/include/linux/capability.h 
 ```
 
-## Count Lines in a File 
+## Count Lines in a File
+```shell
 wc -l
+```
 
 ## Unix a tar.gx 
+```shell
 tar -xvf data.tar.gz -C /opt/landingpad/stagingarea
+```
 
 ## List Mounts on the machine 
+```shell
 df -kh 
+```
 
 ## ping a URL
+```shell
 ping github.com
+```
 
 ## Find all open connections and ports 
+```shell
 netstat -tulpn 
+```
 
 ## Check network trace
+```shell
 traceroute github.com
-
+```
 
 ## Manipulating data using awk command - fetch selected columns from application log
+```shell
 awk '{print $1,$4}' app.log 
+```
+
 
 ## Split Large file into smaller files in Unix 
+```shell
 split -b 1024K bigdata.psv segment
+```
 
 ## Encode text data to base64
+```shell
 echo  'someimportanttext' | base64
+```
 
 ## Decode base64 to text 
+```shell
 echo  'c29tZWltcG9ydGFudHRleHQ=' | base64 --decode
+```
 
 ## MD5 Checksum
 ```
