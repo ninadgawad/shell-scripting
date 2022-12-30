@@ -8,10 +8,15 @@ Unix Shell Scripting; it provides you with an interface to the UNIX system
 - POSIX shell ( sh)
 
 
+## Open file data.txt in VI editor
+```shell
+vi data.txt
+```
 
 ## Find a linux capabilities using the below command
+```shell
 cat /usr/include/linux/capability.h 
-
+```
 
 ## Count Lines in a File 
 wc -l
