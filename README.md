@@ -85,7 +85,9 @@ date +%H:%M
 ```
 
 ## Download a file from remote server
+```
 curl -O --silent ftp://<someserver>/data.zip
+```
 
 ## For 8 AM use 8, and for 8 PM use 20
 ```
@@ -99,9 +101,9 @@ curl -O --silent ftp://<someserver>/data.zip
   
   
 ## Send Email 
-  ```
-  mail -s 'subject' -c 'cc-address' -b 'bcc-address' 'to-address'
-  ```
+```
+mail -s 'subject' -c 'cc-address' -b 'bcc-address' 'to-address'
+```
 
   
 ## Awk row 1 and 4
