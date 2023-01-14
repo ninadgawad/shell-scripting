@@ -118,6 +118,22 @@ awk '{ if (length($0) > max) max = length($0) } END { print max }' data.txt
 ```
 egrep -i data filename | less 
 ```
+  
+## Unix system information
+```
+uname 
+```
+
+## Unix all system information
+```
+uname  -a
+```
+
+## Difference between two files
+```
+diff A.dat B.dat
+```
+
 
 ## Kill a process
 ```
