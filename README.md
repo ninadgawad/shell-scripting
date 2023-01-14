@@ -118,6 +118,17 @@ awk '{ if (length($0) > max) max = length($0) } END { print max }' data.txt
 ```
 egrep -i data filename | less 
 ```
+
+## Kill a process
+```
+kill PID
+```
+or 
+```
+kiil -9 PID
+```
+
+
 ### Links
 https://math.mit.edu/services/help/new/unix
 
