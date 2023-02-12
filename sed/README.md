@@ -26,5 +26,14 @@ The sed command supports basic regular expressions, allowing you to match more c
 sed 's/[0-9]*/new/g' input-file # replace all digits with 'new'
 ```
 
+5) Scripts:
+You can also create a script file containing multiple commands and apply it to a file:
+```
+# script.sed
+s/old/new/g
+s/pattern/replace/g
+sed 's/[0-9]*/new/g'
+sed -f script.sed input-file
+```
 
 These are just some of the basic features of sed, and there's much more that you can do with it. With a little bit of practice, sed can become an indispensable tool for text processing.
