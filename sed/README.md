@@ -32,7 +32,7 @@ You can also create a script file containing multiple commands and apply it to a
 # script.sed
 s/old/new/g
 s/pattern/replace/g
-sed 's/[0-9]*/new/g'
+s/[0-9]*/new/g
 
 
 sed -f script.sed input-file
