@@ -20,5 +20,11 @@ sed 's/old/new/g' input-file
 
 ```
 
+4) Regular expressions:
+The sed command supports basic regular expressions, allowing you to match more complex patterns. For example:
+```
+sed 's/[0-9]*/new/g' input-file # replace all digits with 'new'
+```
+
 
 These are just some of the basic features of sed, and there's much more that you can do with it. With a little bit of practice, sed can become an indispensable tool for text processing.
