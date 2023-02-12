@@ -33,3 +33,10 @@ You can use variables in awk to store intermediate results. For example:
 awk '{ sum += $1 } END { print sum }' input-file # print the sum of the first field of each line
 
 ```
+
+6) Built-in variables:
+awk provides a number of built-in variables that you can use in your scripts, such as NF (number of fields), NR (number of records), and FS (field separator). For example:
+```
+awk '{ print NF, NR, FS }' input-file # print the number of fields, number of records, and field separator
+
+```
