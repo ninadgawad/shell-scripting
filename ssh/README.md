@@ -24,3 +24,11 @@ $HOME/.ssh/id_rsa.pub
 ```
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/server.key -C "Server key"
 ```
+
+2] Install the public key in remote server
+
+Use scp or ssh-copy-id command to copy your public key file (e.g., $HOME/.ssh/id_rsa.pub) to your account on the remote server/host.
+```
+ssh-copy-id -i $HOME/.ssh/id_rsa.pub fiduser@server.com
+```
+
